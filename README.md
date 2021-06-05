@@ -47,8 +47,9 @@ Se prohíbe el uso de recursividad, salvo que se aclare lo contrario.
   
 8. Queremos mostrar la acción que más haya convenido comprar, para eso necesitamos de algunas funciones.
    1. Una función `porcentajeDeGanancia` que reciba una acción y devuelva el porcentaje que subió desde su primer medición hasta su precio actual (sería: `precioActual * 100 / primerMedición`)
-   2. Una función `mayorGanancia` que, dadas dos acciones, devuelva la acción con el porcentaje de suba más grande. Nota: En este punto, se puede usar recursividad.
-   3. Una función `laMejorAccion` que dada una lista de acciones devuelva la acción con el mayor porcentaje de suba.
+   2. Una función `mayorGanancia` que, dadas dos acciones, devuelva la acción con el porcentaje de suba más grande. 
+   3. Nota: En este punto, se puede usar recursividad.  
+   Una función `laMejorAccion` que dada una lista de acciones devuelva la acción con el mayor porcentaje de suba.
   
 9.  Explicar y justificar la inferencia del tipo de la siguiente función:
  Nota: No se pide sólo indicar el tipo. Se pide explicar de dónde surge cada uno de los tipos inferidos (parámetros y resultado).
